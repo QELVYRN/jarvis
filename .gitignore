@@ -1,0 +1,42 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables & secrets
+.env
+*.env
+*.key
+*.pem
+
+# Local databases & logs
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.log
+
+# Ephemeral runtime cache
+/dev_shm/
+*.pcm
+*.raw
+*.wav
+*.jpg
+*.jpeg
+*.png
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
